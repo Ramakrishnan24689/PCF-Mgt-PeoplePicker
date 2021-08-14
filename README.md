@@ -45,7 +45,7 @@ _**Note: This step needs to be performed by Global Administrator or the person w
 
 ### Step 2 - Import the solution
 
-  Option 1 - Import the zip file directly into Dataverse. Managed or Unmanaged Solution.
+  Option 1 - Import the zip file directly into Dataverse. [Managed Solution](https://github.com/Ramakrishnan24689/PCF-Mgt-PeoplePicker/blob/main/Solution/PCFMgtPeoplePickerSln.zip).
 
   Option 2 
   - git clone the repo
