@@ -1,9 +1,13 @@
 # PCF-Mgt-PeoplePicker
 A PCF which uses Mgt-Peoplepicker to allow search for all users or/and groups in an organization.
 
-If you want to a peoplepicker to search on the User(systemuser) entity of Dateverse refer [this solution](https://github.com/Ramakrishnan24689/OfficeUIFabricReactPeoplePicker).
+If you want a peoplepicker to search on the User(systemuser) entity of Dateverse instead, refer [this solution](https://github.com/Ramakrishnan24689/OfficeUIFabricReactPeoplePicker).
 
 This control provides a seamless experience to the user who wanted to utilize Microsoft graph toolkit in Model driven powerapps with SSO experience.
+
+## Glimpse of this sample 
+
+![](assets/MGT-PeoplePicker.gif)
 
 # Dependencies
  - @azure/msal-browser : https://www.npmjs.com/package/@azure/msal-browser
@@ -57,10 +61,6 @@ Property Name|Value
 Client ID|GUID(noted in step 1)
 Redirection URL ID|Environment URL(used in step 1)
 Authority URL|https://login.microsoftonline.com/#TenantID# (Noted in step 1)]
-
-## Glimpse of the sample 
-
-![](assets/MGT-PeoplePicker.gif)
 
 ## For packaging & deploying the solution, refer the below link
 
