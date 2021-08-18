@@ -5,6 +5,8 @@ If you want a peoplepicker to search on the User(systemuser) table of Dataverse 
 
 This control provides a seamless experience to the user who wanted to utilize Microsoft graph toolkit in Model driven powerapps with SSO experience.
 
+Refer this [article](https://www.linkedin.com/pulse/powerapps-component-framework-microsoft-graph-toolkit-raman) for more information 
+
 ## Glimpse of this sample 
 
 ![](assets/MGT-PeoplePicker.gif)
