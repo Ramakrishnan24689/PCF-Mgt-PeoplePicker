@@ -45,7 +45,7 @@ export class PCFMgtPeoplepicker implements ComponentFramework.StandardControl<II
 		this.props.toShowSelectedPeople = context.parameters.showselectedMembers.raw === "No" ? false : true;
 		this.props.selectionMode = context.parameters.selectionMode.raw.toLowerCase();
 		this.props.authority = context.parameters.authority.raw!;
-		this.props.redirectUri = context.parameters.redirectUri.raw!;
+		this.props.redirectUri = Xrm.Utility.getGlobalContext().getClientUrl() + "/";
 		this.props.clientId = context.parameters.clientId.raw!;
 		if (context.parameters.peoplePicker.raw !== null) {
 			if (context.parameters.peoplePicker.raw!.indexOf("id") > 1) {
